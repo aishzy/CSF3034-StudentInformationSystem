@@ -24,5 +24,11 @@ public class StudentInformationSystem {
         else {
             System.out.println("Result: Need Improvement");
         }
+
+        if (total >= 100) {
+            System.out.println("Pass");
+        } else {
+            System.out.println("Fail");
+        }
     }
 }
